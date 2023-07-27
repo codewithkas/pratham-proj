@@ -1,0 +1,41 @@
+/* Form */
+.form-heading {
+  font-family: sans-serif;
+  color: #9b0e0e;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1rem;
+  transition: opacity 0.3s;
+}
+
+/* .contact-form {} */
+
+.contact-form-input {
+  letter-spacing: 0.1rem;
+  height: 3rem;
+}
+
+/* .contact-form-textarea {
+  resize: none;
+} */
+
+/* .form-submit-btn {} */
+
+/* Form Validation */
+.message {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f55e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 0 auto 1rem 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.error.message {
+  visibility: visible;
+  opacity: 1;
+}
+/* End of Form Validation */
+/* End of Form */
