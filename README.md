@@ -1,35 +1,31 @@
 # prathamBlog-proj
 
-As a Full Stack Developer, I have developed a blog for the company where people can post articles and customers can benefit from the content.
+**Project: Simply Blogging project**
 
-Simply Blogging
+**Objective:**
+The objective of this Project is develop a blog for the company where people can post articles and customers can benefit from the content.
 
-Course-end Project 1
+**Tools and Technologies:**
 
-DESCRIPTION
+1. Visual Studio Code
+2. Javascript
+3. HTML/CSS
+4. Bootstrap
+5. GitHub
 
-As a Full Stack Developer, you have to develop a blog for the company where people can post articles and customers can benefit from the content.
+**Step-by-Step Process:**
 
-Background of the problem statement:
+1.  setup Vs code
+2.  created html css javascript file
+3.  Initialized Git in project directory and created new github repository for project
+4.  Created the user interface for the blog project
+5.  Implemented features styles
+6.  Created write section for writting and submiting Blog/Articles
+7.  Created contact form for query/complaint/suggesion
+8.  Created login and signup section
+9.  Form Validation created and done
+10. deployed on netlify and checked for application and forms are working.
 
-As the project is progressing, management has asked you to create a blog page for the company website so that newsletters and other informative articles can be posted by experts for the benefit of the customers.
+**Here is the link of the repository:**
 
-You must use the following:
-
-    Visual Studio Code
-    Bootstrap
-    HTML/CSS
-    Javascript
-    GitHub
-
-Following requirements should be met:
-
-    A few of the source codes should be tracked on GitHub repositories.
-
-    You need to document the tracked files that are ignored during the final push to the GitHub repository.
-
-    The submission of your GitHub repository link is mandatory.
-
-    In order to track your task, you need to share the link of the repository in the document.
-
-    The step-by-step process involved in completing this task should be documented.
+https://github.com/codewithkas/prathamBlog-proj
