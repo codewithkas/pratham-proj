@@ -1,0 +1,134 @@
+:root {
+  --bg-size: 100% 100%;
+  --main-color: #fff;
+  --eff: 0.3s all ease;
+}
+
+.main_heading {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.main_heading__para {
+  font-size: 2.2rem;
+}
+
+.main_header__div {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: var(--bg-size);
+}
+
+.main_header__div p {
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: var(--main-color);
+}
+
+.main_header__div h2 {
+  font-size: 6.5rem;
+  font-weight: bold;
+  color: var(--main-color);
+  padding-bottom: 2rem;
+  /* position: relative; */
+}
+
+.main_header__div button {
+  transition: var(--eff);
+}
+
+.main_header__div button:hover,
+.left_div__like:hover,
+.left_div__reply:hover,
+figure img:hover,
+.subs_btn:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.8);
+}
+/*  */
+
+a,
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  background: hsl(84, 3%, 94%);
+}
+
+/*header responsive code*/
+@media (max-width: 998px) {
+  html {
+    font-size: 100%;
+  }
+
+  .text-f {
+    font-size: 2rem;
+  }
+
+  .main_heading {
+    font-size: 3rem;
+  }
+
+  .main_heading__para {
+    font-size: 1.1rem;
+  }
+
+  .left_div__blog {
+    margin: 3rem 0;
+  }
+
+  p,
+  label,
+  input::placeholder {
+    font-size: 1.1rem;
+  }
+
+  /* :root {
+    --btn-font: 2rem;
+  } */
+
+  .main_header__div h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+
+  /* .text-f {
+  } */
+
+  .main_heading {
+    font-size: 2.5rem;
+  }
+
+  .main_heading__para {
+    font-size: 1rem;
+  }
+
+  .left_div__blog {
+    margin: 2rem 0;
+  }
+
+  p,
+  label,
+  input::placeholder {
+    font-size: 0.9rem;
+  }
+
+  /* :root {
+    --btn-font: 2rem;
+  } */
+
+  .main_header__div h2 {
+    font-size: 2.3rem;
+  }
+}
